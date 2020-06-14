@@ -22,13 +22,10 @@ class SignInScreen extends StatelessWidget {
     );
   }
 
-  SingleChildScrollView topTitleLayout(BuildContext context) {
-    return SingleChildScrollView(
-      child: Expanded(
-          child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16),
-        child: topLayoutText(context),
-      )),
+  Padding topTitleLayout(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16),
+      child: topLayoutText(context),
     );
   }
 
